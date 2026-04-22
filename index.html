@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TetherPad — FTP Tether Capture for iPad</title>
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", sans-serif;
+      background: #0a0a0a;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    .hero {
+      min-height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 4rem 1.5rem;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: clamp(2.5rem, 8vw, 4rem);
+      font-weight: 700;
+      margin: 0 0 0.5rem;
+      letter-spacing: -0.02em;
+    }
+    .tagline {
+      font-size: 1.25rem;
+      color: #aaa;
+      margin: 0 0 3rem;
+    }
+    .install-box {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+    }
+    .install-box h2 { margin-top: 0; font-size: 1.1rem; }
+    code {
+      display: block;
+      background: #000;
+      border: 1px solid #2a2a2a;
+      border-radius: 6px;
+      padding: 0.75rem 1rem;
+      font-size: 0.875rem;
+      word-break: break-all;
+      margin: 0.75rem 0;
+      color: #7ee787;
+    }
+    .btn {
+      display: inline-block;
+      background: #f5f5f5;
+      color: #0a0a0a;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 1rem;
+      transition: transform 0.1s;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    ul { padding-left: 1.25rem; }
+    li { margin: 0.25rem 0; color: #bbb; }
+    footer {
+      border-top: 1px solid #2a2a2a;
+      padding: 2rem 1.5rem;
+      text-align: center;
+      color: #666;
+      font-size: 0.875rem;
+    }
+    a { color: #7ee787; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>TetherPad</h1>
+    <p class="tagline">FTP tether capture for iPad. Your camera sends photos straight to your iPad over Wi-Fi.</p>
+
+    <div class="install-box">
+      <h2>Install via AltStore</h2>
+      <p>Add this source to your AltStore:</p>
+      <code>https://ykmp-dev.github.io/TetherPad-releases/source.json</code>
+      <a class="btn" href="altstore://source?url=https://ykmp-dev.github.io/TetherPad-releases/source.json">Open in AltStore</a>
+    </div>
+
+    <h2>Requirements</h2>
+    <ul>
+      <li>iPad running iOS 16 or later</li>
+      <li>Apple ID (free tier OK — 7-day refresh via AltServer)</li>
+      <li>Wi-Fi network shared with your camera</li>
+      <li>AltStore installed on iPad (<a href="https://altstore.io">altstore.io</a>)</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>TetherPad is distributed via AltStore. Each user signs with their own Apple ID.</p>
+  </footer>
+</body>
+</html>
