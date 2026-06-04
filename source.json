@@ -7,12 +7,12 @@
       "name": "TetherPad",
       "bundleIdentifier": "com.ykmp.tetherpad",
       "developerName": "ykmp",
-      "version": "2.6.2",
-      "versionDate": "2026-04-28T10:08:46+09:00",
+      "version": "2.6.3",
+      "versionDate": "2026-06-05T01:24:49+09:00",
       "downloadURL": "https://ykmp-dev.github.io/TetherPad-releases/TetherPad.ipa",
       "localizedDescription": "FTP tether capture for iPad — receives photos from camera over WiFi.",
       "subtitle": "Tether capture over WiFi",
-      "size": 2176346,
+      "size": 2192518,
       "iconURL": "https://ykmp-dev.github.io/TetherPad-releases/icon.png"
     }
   ]
